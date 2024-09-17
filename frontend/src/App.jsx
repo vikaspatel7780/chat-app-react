@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 // Initialize socket connection
-const socket = io('http://localhost:3001');
+const socket = io('https://socket-backend-cphg.onrender.com');
 
 function App() {
   const [message, setMessage] = useState('');
